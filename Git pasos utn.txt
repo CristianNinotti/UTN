@@ -1,0 +1,4 @@
+git clone URL de repositorio
+cd "Nombre de carpeta"
+dir (Para verificar si estoy en la carpeta correcta)
+clear para limpiar la consola
