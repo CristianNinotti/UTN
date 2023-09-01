@@ -1,4 +1,43 @@
+Para registrarse por primera y unica vez:
+
+git config --global user.email "email"
+git config --global user.name "nombre apellido"
+
+Consultar nombre cargado
+git config user.name
+Consultar email cargado
+git config user.email
+
+Clonacion de repositorio
 git clone URL de repositorio
+
+Pararse sobre la ubicacion de carpeta
 cd "Nombre de carpeta"
+
+Verificar carpeta ubicada:
 dir (Para verificar si estoy en la carpeta correcta)
+
+Limpiar consola:
 clear para limpiar la consola
+
+Agregar todo al lo nuevo:
+git add .
+
+Commit:
+git commit -m "actualizacion de readme.md"
+
+Para vincular con el repositorio:
+git remote add upstream https://github.com/NombreDeUsuarioGit/NombreDeRepositorio.git
+
+git pull origin main
+
+git push origin main
+
+Para subir a repositorio:
+git push
+
+git push -f origin main
+
+
+Para chequear los commits
+git log
