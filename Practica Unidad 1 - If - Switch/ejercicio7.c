@@ -30,7 +30,7 @@ float main ()
                 {
                     printf("Ingrese un caracter valido \n");
                 }
-
+// asd
     return 0;
     system("pause");                
 }
