@@ -28,7 +28,11 @@ int main()
     else if(num1==num2 && num2==num3)
     {
         printf("Los 3 numeros son iguales\n");
-    }    
+    }
+    else if(num1==num2 || num2==num3)
+    {
+        printf("Hay dos numeros iguales\n");
+    }      
     
     else 
     {
@@ -38,3 +42,4 @@ int main()
     return 0;
     system("pause");
 }
+
