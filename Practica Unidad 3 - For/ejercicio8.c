@@ -5,11 +5,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void main ()
+void main()
 {
     int i, num1, multiplo;
     printf("Ingrese un numero para saber sus multiplicadores \n");
-    scanf("%d ", &num1);
+    scanf("%d", &num1);
 
 
     multiplo=0;
