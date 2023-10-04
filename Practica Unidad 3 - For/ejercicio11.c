@@ -12,8 +12,5 @@ void main()
         printf("@ \n");
     }
 
-
-
-
     system("pause");
 }
