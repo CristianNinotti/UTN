@@ -6,7 +6,7 @@ leer las notas por consola, mostrar la suma de sus componentes y el promedio. */
 
 void main()
 {
-    int cantidadNotas, i, contador;
+    int cantidadNotas, i;
     float totalNotas, promedioNotas;
 
     printf("Ingrese la cantidad de notas a cargar \n");
@@ -20,7 +20,6 @@ void main()
         scanf("%f", &array[i]);
 
         totalNotas = totalNotas + array[i];
-        contador = contador + 1;
     }
 
     promedioNotas = totalNotas / cantidadNotas;
